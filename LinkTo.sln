@@ -5,6 +5,12 @@ VisualStudioVersion = 12.0.20827.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkTo", "LinkTo\LinkTo.csproj", "{C8E6DAF9-7B89-4A4D-9297-F6703D07E75B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{A4E5C0CC-B617-4974-B908-393FEC0317BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{8C0DB6C2-A947-4F67-8FC2-5B6BD48D1821}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "LinkToDB", "LinkToDB\LinkToDB.sqlproj", "{FCCDD902-8EF6-41A0-88A5-34B6B332F9F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,20 @@ Global
 		{C8E6DAF9-7B89-4A4D-9297-F6703D07E75B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8E6DAF9-7B89-4A4D-9297-F6703D07E75B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8E6DAF9-7B89-4A4D-9297-F6703D07E75B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4E5C0CC-B617-4974-B908-393FEC0317BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4E5C0CC-B617-4974-B908-393FEC0317BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4E5C0CC-B617-4974-B908-393FEC0317BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4E5C0CC-B617-4974-B908-393FEC0317BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C0DB6C2-A947-4F67-8FC2-5B6BD48D1821}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C0DB6C2-A947-4F67-8FC2-5B6BD48D1821}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C0DB6C2-A947-4F67-8FC2-5B6BD48D1821}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C0DB6C2-A947-4F67-8FC2-5B6BD48D1821}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCCDD902-8EF6-41A0-88A5-34B6B332F9F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCCDD902-8EF6-41A0-88A5-34B6B332F9F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCCDD902-8EF6-41A0-88A5-34B6B332F9F7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FCCDD902-8EF6-41A0-88A5-34B6B332F9F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCCDD902-8EF6-41A0-88A5-34B6B332F9F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCCDD902-8EF6-41A0-88A5-34B6B332F9F7}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
